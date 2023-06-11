@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+.App {
+  text-align: center;
+  font-family: inter;
+  color : white;
+}
+
+
+
+.background-shape-1{
+
+  border-radius: 56% 44% 25% 75% / 61% 64% 36% 39% ;
+  min-height: 540px;
+  min-width: 664px;
+  z-index: 0;
+  background : linear-gradient( #586270, #0B0C10);
+  opacity: 40%;
+  position: fixed;
+  float: right;
+  margin-left: 47rem;
+  margin-top: 12rem;
+}
+
+.background-shape-2{
+
+  border-radius: 60% 40% 41% 59% / 58% 48% 52% 42%  ;
+  height: 510px;
+  width: 604px;
+  z-index: 0;
+  background : linear-gradient( #1A202A, #0B0C10);
+  opacity: 90%;
+  position: fixed;
+  float: left;
+  margin-left: -5rem;
+  margin-top: -10rem;
+}
+
+.circle-1{
+  z-index: 0;
+  position: fixed;
+  height: 250px;
+  width: 250px;
+  background: radial-gradient(circle,#474F5B ,#0B0C10 66%);
+  border-radius: 50%;
+  opacity: 70%;
+  margin-top: 35rem;
+  margin-left: 20rem;
+
+}
+
+.circle-2{
+  z-index: 0;
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  background: radial-gradient(circle,#474F5B ,#0B0C10 66%);
+  border-radius: 50%;
+  opacity: 55%;
+  margin-top: 25rem;
+  margin-left: 5rem;
+}
+
+.circle-3{
+  z-index: 0;
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(circle,#757e8c ,#0B0C10 66%);
+  border-radius: 50%;
+  opacity: 70%;
+  margin-top: -6rem;
+  margin-left: 48rem;
+  z-index: 0;
+
+}
+
+.circle-4{
+  z-index: 0;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background: radial-gradient(circle,#474F5B ,#0B0C10 66%);
+  border-radius: 50%;
+  opacity: 70%;
+  margin-top: 11rem;
+  margin-left: 82rem;
+
+}
+
+.circle-5{
+  z-index: 0;
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  background: radial-gradient(circle,#474F5B ,#0B0C10 66%);
+  border-radius: 50%;
+  opacity: 80%;
+  margin-top: 5rem;
+  margin-left: 75rem;
+
+}
+
+.reg-form{
+
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  line-height: 3rem;
+}
+
+.name{
+
+  font-size: 3rem;
+  float: right;
+}
+
+.heading{
+
+  font-size: 3rem;
+  font-family: inter ;
+  font-weight: 900;
+  letter-spacing: -0.2rem;
+  word-spacing: 0.5rem;
+  margin-top: 2rem;
+  margin-left: -1rem;
+  z-index: 1;
+  position: relative;
+  color: #66FCF1;
+}
+
+.sub-heading{
+
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  border: #586270 solid;
+  border-radius: 2rem;
+  width: fit-content;
+  align-self: center;
+}
+
+
+.reg-form-container{
+
+  z-index: 1;
+  position: relative;
+  max-width: 50%;
+  float: left;
+  padding: 5%;
+  flex-direction: column;
+  /*border:  solid black;*/
+  margin-top: 4rem;
+}
+
+.student-data-container{
+  width: 50%;
+  max-height: 40rem;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid white;*/
+  border-radius: 1rem;
+  padding:1rem;
+  z-index: 1;
+  position: relative;
+  /*overflow-y: scroll;*/
+  
+}
+
+.content{
+  overflow-y: scroll;
+  margin-top :1rem;
+}
+::-webkit-scrollbar {
+  width: 12px;  
+  border-radius: 0.5rem ;  /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(95, 95, 95); 
+  border-radius: 0.6rem;
+  margin-right: 0.1rem;      /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(61, 61, 66);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+    /* creates padding around scroll thumb */
+}
+
+
+.name-div{
+
+  display: flex;
+    
+}
+
+.email-div{
+  
+  display: flex;
+}
+
+.website-div{
+ 
+  display: flex;
+}
+
+.image-div{
+ 
+  display: flex;
+}
+
+.gender-div{
+  
+  display: flex;
+ 
+}
+
+.skill-div{
+  display: flex;
+}
+
+.button-div{
+  
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.name-text{
+
+  float :left;
+  margin-right: 3rem;
+  min-width: 10rem;
+  
+}
+
+.name-text-input{
+
+  float :left;
+  border-radius: 5px;
+  height: 2rem;
+  
+  margin-top: 0.5rem;
+}
+
+.email-text{
+
+  float :left;
+  margin-right: 3rem;
+  min-width: 10rem;
+  
+}
+
+.email-text-input{
+
+  float :left;
+  border-radius: 5px;
+  height: 2rem;
+  margin-top: 0.5rem;
+}
+
+.website-text{
+
+  float :left;
+  margin-right: 3rem;
+  min-width: 10rem;
+  
+}
+
+.website-text-input{
+
+  float :left;
+  border-radius: 5px;
+  height: 2rem;
+  margin-top: 0.5rem;
+}
+
+.image-text{
+
+  float :left;
+  margin-right: 3rem;
+  min-width: 10rem;
+  
+}
+
+.image-text-input{
+
+  float :left;
+  border-radius: 5px;
+  height: 2rem;
+  margin-top: 0.5rem;
+}
+
+.gender-text{
+
+  float :left;
+  margin-right: 3rem;
+  min-width: 10rem;
+  
+}
+
+.gender-text-input{
+
+  float :left;
+  border-radius: 5px;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+  
+}
+
+.skill-text{
+
+  float :left;
+  margin-right: 3rem;
+  min-width: 10rem;
+  
+}
+
+.skill-text-input{
+
+  float :left;
+  border-radius: 5px;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.button-input-submit{
+
+  float :left;
+  border-radius: 5px;
+  height: 3rem;
+  min-width: 10rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  margin-left: 2rem;
+  background-color: cornflowerblue;
+}
+
+.button-input-submit:hover{
+
+  float :left;
+  border-radius: 5px;
+  height: 3.2rem;
+  min-width: 10.2rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  margin-left: 2rem;
+  background-color: rgb(20, 97, 240);
+}
+
+.button-input-reset{
+
+  float :left;
+  border-radius: 5px;
+  height: 3rem;
+  min-width: 10rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+background-color: rgb(238, 59, 95);
+}
+
+.button-input-reset:hover{
+
+  float :left;
+  border-radius: 5px;
+  height: 3.2rem;
+  min-width: 10.2rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+background-color: rgb(249, 3, 52);
+}
+
+.student-container{
+
+  padding: 0.9rem 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  margin-top: 1rem;
+  background :rgba(32, 40, 51, .81 );
+z-index: 1;
+position: relative;
+
+}
+
+.student-details{
+
+  /*border: solid yellow;*/
+  float: left;
+  min-width: 75%;
+  line-height: 1.4rem;
+  align-items:start;
+  align-content: start;
+ 
+}
+
+.image{
+
+  height: 7rem;
+  width: 5.8rem;
+  border-radius: 4px;
+}
+
+.stud-image-div{
+
+  width: 5.8rem;
+  float: right;
+  align-self: flex-end;
+  height: 7em;
+  margin-left: 5rem;
+}
